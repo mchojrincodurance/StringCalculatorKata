@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class StringCalculator {
 
     public static final String SEPARATOR = ",";
