@@ -12,6 +12,9 @@ public class StringCalculator {
             return s;
         }
 
-        return "1";
+        String[] parts = s.split(",");
+        int sum = Integer.parseInt(parts[0]) + Integer.parseInt(parts[1]);
+
+        return Integer.toString(sum);
     }
 }
