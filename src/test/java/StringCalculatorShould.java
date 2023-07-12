@@ -24,7 +24,8 @@ public class StringCalculatorShould {
 
     @ParameterizedTest
     @CsvSource({
-            "'0,1',1"
+            "'0,1',1",
+            "'1,2',3",
     })
     public void return_sum_of_numbers_in_the_input_when_comma_is_present(String input, String result) {
         assertEquals(result, stringCalculator.add(input));
