@@ -1,5 +1,5 @@
 public class StringCalculator {
     public String add(String s) {
-        return "0";
+        return s.isEmpty() ? "0" : "1";
     }
 }
