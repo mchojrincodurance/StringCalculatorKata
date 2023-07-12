@@ -16,6 +16,7 @@ public class StringCalculatorShould {
     @ParameterizedTest
     @CsvSource({
             "1",
+            "2",
     })
     public void return_the_same_number_if_no_commas_are_in_the_input(String input) {
         assertEquals(input, stringCalculator.add(input));
