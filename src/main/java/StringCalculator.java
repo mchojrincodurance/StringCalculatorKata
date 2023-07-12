@@ -1,5 +1,17 @@
+import java.util.Arrays;
+
 public class StringCalculator {
     public String add(String s) {
-        return s.isEmpty() ? "0" : s;
+        if (s.isEmpty()) {
+
+            return "0";
+        }
+
+        if (!s.contains(",")) {
+
+            return s;
+        }
+
+        return "1";
     }
 }
